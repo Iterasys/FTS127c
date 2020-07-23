@@ -37,8 +37,9 @@ public class Servico {
                 .body("type",is("unknown"))
                 .body("message",is(resultado))
 
-        ;
 
+        ;
+        System.out.println("Rodou Servico");
     }
 
     @Test

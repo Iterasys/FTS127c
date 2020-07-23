@@ -33,6 +33,7 @@ public class Usuario {
                         "\"password\":" + password + "," +
                         "\"phone\":" + phone + "," +
                         "\"userStatus\":" + userStatus + "}");
+        System.out.println("Rodou Usuario");
     }
 
     @Quando("^conecto com a uri da PetShop$")
