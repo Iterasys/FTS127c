@@ -3,6 +3,8 @@ package Steps;
 import cucumber.api.java.pt.Dado;
 import cucumber.api.java.pt.Entao;
 import cucumber.api.java.pt.Quando;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
@@ -12,6 +14,8 @@ import org.testng.annotations.BeforeTest;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.is;
 
+@Epic("Black Friday 2020")
+@Feature("Usuario")
 public class Usuario {
     //RestAssured restAssured = new RestAssured();
     RequestSpecification requestSpecification = RestAssured.given();
